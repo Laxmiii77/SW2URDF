@@ -333,6 +333,8 @@ namespace SW2URDF.URDFExport
                         break;
                 }
             }
+           
+
             link.Visual.Geometry.Mesh.Filename = meshFilename;
             link.Collision.Geometry.Mesh.Filename = meshFilename;
         }
@@ -497,6 +499,9 @@ namespace SW2URDF.URDFExport
 
             ActiveSWModel.Extension.SaveAs(windowsMeshFileName, (int)swSaveAsVersion_e.swSaveAsCurrentVersion,
                 (int)swSaveAsOptions_e.swSaveAsOptions_Silent, null, ref errors, ref warnings);
+
+            
+
             URDFRobot.BaseLink.Visual.Geometry.Mesh.Filename = meshFileName;
             URDFRobot.BaseLink.Collision.Geometry.Mesh.Filename = meshFileName;
 
