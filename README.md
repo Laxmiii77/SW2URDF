@@ -1,4 +1,4 @@
-# SolidWorks to URDF Exporter
+# SolidWorks to URDF Exporter 
 
 Authored and maintained by [Stephen Brawner](brawner@gmail.com). Past supporters include [PickNik Consulting](https://picknik.ai), Verb Surgical, Open Robotics, and Willow Garage. 
 
@@ -6,16 +6,14 @@ Authored and maintained by [Stephen Brawner](brawner@gmail.com). Past supporters
 
 1. Modified CMakeLists.txt to adapt to ROS2
 2. Modified package.xml to adapt to ROS2
-3. Added display.launch.py, which overflows the previous display.launch and gazebo.launch
-
-- The new gazebo is not yet popular and gazebo11 is still widely used, so I will not write gazebo launch. Sorry. You can write it yourself if you need it.
+3. Added display.launch.py and gazebo.launch.py, which overflows the previous display.launch and gazebo.launch
+4. Works with the latest Gazebo - Harmonic
 
 ## SolidWorks Version Requirements
 
 1. The minimum required version of SolidWorks for use with this add-in is 2018 Service Pack 5. SolidWorks 2017 or earlier may work. See [this issue](https://github.com/ros/solidworks_urdf_exporter/issues/73).
 
 ## Usage
-
 See the [ROS Wiki](http://wiki.ros.org/sw_urdf_exporter) and associated [tutorials](http://wiki.ros.org/sw_urdf_exporter/Tutorials).
 
 ## Development
